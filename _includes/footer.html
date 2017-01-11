@@ -1,0 +1,36 @@
+<footer class="site-footer">
+    <div class="wrapper">
+        <div class="footer-col-wrapper">
+            <div class="footer-col">
+                <h3>Social</h3>
+                <ul class="social-media-list">
+                    <li>
+                        {% if site.facebook_username %}
+                        {% include icon-facebook.html username=site.facebook_username %}
+                        {% endif %}
+                    </li>
+                    <li>
+                        {% if site.twitter_username %}
+                        {% include icon-twitter.html username=site.twitter_username %}
+                        {% endif %}
+                    </li>
+                    <li>
+                        {% if site.instagram_username %}
+                        {% include icon-instagram.html username=site.instagram_username %}
+                        {% endif %}
+                    </li>
+                    <li>
+                        {% if site.github_username %}
+                        {% include icon-github.html username=site.github_username %}
+                        {% endif %}
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Other things</h3>
+                Copyright 2016 John Riney
+            </div>
+        </div>
+    </div>
+</footer>
