@@ -1,0 +1,31 @@
+---
+layout: default
+permalink: /hacks/index.html
+---
+
+<div class="home">
+
+  <ul class="post-list">
+    {% for post in site.categories.hacks %}
+      <li class="post-content">
+
+        <span class="post-title">
+          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </span>
+
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        {% if post.thumbnail %}
+            <a href="{{ post.url | prepend: site.baseurl }}">
+                <img class="post-thumbnail" src="/images/thumbnails/{{post.thumbnail}}">
+            </a>
+        {% endif %}
+
+        {{ post.excerpt }}
+
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">(read more...)</a>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>
