@@ -6,14 +6,14 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: john riney has a blog
+title: 8bithe.art
 email: john@rineysoft.com
-description: "yeah this doesn't really matter. i'm just this guy."
+description: "Blogs are still cool, right?"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://rineysoft.com" # the base hostname & protocol for your site
-twitter_username: riney
 github_username: riney
 instagram_username: rin3y
+linkedin_username: riney
 excerpt_separator: <!-- more -->
 
 # Build settings

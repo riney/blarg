@@ -16,7 +16,7 @@ layout: default
 
         {% if post.thumbnail %}
             <a href="{{ post.url | prepend: site.baseurl }}">
-                <img class="post-thumbnail" src="/images/thumbnails/{{post.thumbnail}}">
+                <img class="post-thumbnail" src="{{post.thumbnail}}">
             </a>
         {% endif %}
 

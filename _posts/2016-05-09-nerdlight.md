@@ -2,7 +2,7 @@
 layout: post
 title: Nerdlight - Making Light Out Of Leftovers
 permalink: nerdlight.html
-thumbnail: nerdlight.jpg
+thumbnail: /images/thumbnails/nerdlight.jpg
 ---
 
 I made a thing! A blinky thing.<!-- more -->I found a little baggie containing four

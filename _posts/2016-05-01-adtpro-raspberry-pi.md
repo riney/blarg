@@ -3,7 +3,7 @@ layout: post
 title: Raspberry Pi File Server For Apple II
 date: 2016-05-01
 permalink: pi-apple-ii.html
-thumbnail: disk.png
+thumbnail: /images/thumbnails/disk.png
 ---
 
 I've been spending a little time with my Apple IIc - possibly the cutest computer Apple has ever

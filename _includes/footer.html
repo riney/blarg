@@ -5,11 +5,6 @@
                 <h3>Social</h3>
                 <ul class="social-media-list">
                     <li>
-                        {% if site.twitter_username %}
-                        {% include icon-twitter.html username=site.twitter_username %}
-                        {% endif %}
-                    </li>
-                    <li>
                         {% if site.instagram_username %}
                         {% include icon-instagram.html username=site.instagram_username %}
                         {% endif %}
@@ -19,12 +14,17 @@
                         {% include icon-github.html username=site.github_username %}
                         {% endif %}
                     </li>
+                    <li>
+                        {% if site.linkedin_username %}
+                        {% include icon-linkedin.html username=site.linkedin_username %}
+                        {% endif %}
+                    </li>
                 </ul>
             </div>
 
             <div class="footer-col">
                 <h3>Other things</h3>
-                Copyright 2020 John Riney
+                Copyright 2024 John Riney
             </div>
         </div>
     </div>

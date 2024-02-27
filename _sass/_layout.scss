@@ -2,9 +2,9 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-light;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
+    padding-bottom: 20px;
     background-color: $grey-color-dark;
 
     // Positioning context for the mobile navigation icon
@@ -26,6 +26,20 @@
     font-family: 'Wire One', sans-serif;
     font-size: 96px;
     font-weight: 400;
+    display: block;
+
+    &,
+    &:visited {
+        color: white;
+    }
+    &:hover{
+        text-decoration: none;
+    }
+}
+
+.site-description {
+    font-family: 'Wire One', sans-serif;
+    font-size: 48px;
     display: block;
 
     &,
@@ -64,7 +78,7 @@
     @include media-query($on-palm) {
         position: absolute;
         top: 9px;
-        right: $spacing-unit / 2;
+        right: calc($spacing-unit / 2);
         background-color: $background-color;
         border: 1px solid $grey-color-light;
         border-radius: 5px;
@@ -133,7 +147,7 @@
 
 .footer-heading {
     font-size: 18px;
-    margin-bottom: $spacing-unit / 2;
+    margin-bottom: calc($spacing-unit / 2);
 }
 
 .contact-list,
@@ -145,14 +159,14 @@
 .footer-col-wrapper {
     font-size: 15px;
     color: $grey-color;
-    margin-left: -$spacing-unit / 2;
+    margin-left: calc(-1 * $spacing-unit / 2);
     @extend %clearfix;
 }
 
 .footer-col {
     float: left;
-    margin-bottom: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
+    margin-bottom: calc($spacing-unit / 2);
+    padding-left: calc($spacing-unit / 2);
 }
 
 .footer-col-1 {
@@ -217,8 +231,8 @@
     font-size: $small-font-size;
     color: $grey-color;
     display: block;
-    margin-top: $spacing-unit / 4;
-    margin-bottom: $spacing-unit / 2;
+    margin-top: calc($spacing-unit / 4);
+    margin-bottom: calc($spacing-unit / 2);
 }
 
 .post-link {
@@ -276,5 +290,18 @@
         @include media-query($on-laptop) {
             font-size: 18px;
         }
+    }
+}
+
+ul.photo_gallery {
+    margin-left: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.photo_gallery {
+    li {
+        display: inline-block;
+        vertical-align: top;
     }
 }
