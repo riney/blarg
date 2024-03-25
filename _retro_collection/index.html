@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+{% assign all_systems = site.retro_collection | group_by: "manufacturer" %}
+
+{% for system_category in all_systems %}
+    {% assign category_name = system_category.name %}
+
+    {% if category_name.size == 0 %}
+        {% assign category_name = "Unassigned" %}
+    {% endif %} 
+
+    <h2>{{category_name}}</h2>
+    <ul>
+        {% for system in system_category.items %}
+            {% unless system.name == "index.html" %}
+                <li>
+                    <a class="page-link" href="{{ system.url | prepend: site.baseurl }}">{{system.manufacturer}} {{system.model}} ({{system.accession}})</a>
+                </li>
+            {% endunless %}
+        {% endfor %}
+    </ul>
+{% endfor %}
+

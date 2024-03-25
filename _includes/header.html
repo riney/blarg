@@ -21,6 +21,9 @@
             {% for category in site.categories %}
                 <a class="page-link" href="/{{ category[0] | prepend: site.baseurl }}">{{ category[0] }}</a>
             {% endfor %}
+            
+            {% assign collection = site.collections | where: "label", "retro_collection" | first %}
+            <a class="page-link" href="/{{ collection.label| prepend: site.baseurl }}">{{ collection.display_name }}</a>
         </div>
 
         <a href="#" class="menu-icon">

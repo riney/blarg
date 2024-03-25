@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Nerdlight - Making Light Out Of Leftovers
+date: 2016-05-09
 permalink: nerdlight.html
 thumbnail: /images/thumbnails/nerdlight.jpg
 ---
