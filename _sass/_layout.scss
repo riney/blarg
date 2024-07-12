@@ -118,11 +118,12 @@
         .page-link {
             display: block;
             padding: 5px 10px;
+            margin-left: 20px;
 
             &:not(:last-child) {
                 margin-right: 0;
             }
-            margin-left: 20px;
+
         }
     }
 }
