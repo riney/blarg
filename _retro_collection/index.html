@@ -22,7 +22,7 @@ title: Retro computer collection - 8bithe.art
         {% for system in system_category.items %}
             {% unless system.name contains ".html" %}
                 <li>
-                    <a class="page-link" href="{{ system.url | prepend: site.baseurl }}">{{system.manufacturer}} {{system.model}} ({{system.accession}})</a>
+                    <a class="page-link" href="{{ system.url | prepend: site.baseurl }}">{{system.model}} ({{system.accession}})</a>
                 </li>
             {% endunless %}
         {% endfor %}

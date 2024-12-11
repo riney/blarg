@@ -2,9 +2,9 @@
 layout: default
 accession: R111162
 location: thirdnerd_hq
-manufacturer: Osborne
+manufacturer: Osborne Computer Corporation
 model: Osborne I
-serial: 
+serial: 229937
 status: working
 ---
 
