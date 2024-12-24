@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: collection_item
 accession: R111198
 location: thirdnerd_hq
 manufacturer: Osborne Computer Corporation

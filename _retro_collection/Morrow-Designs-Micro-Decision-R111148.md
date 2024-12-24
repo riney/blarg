@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: collection_item
 accession: R111148
 location: thirdnerd_hq
 manufacturer: Morrow Designs

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: collection_item
 accession: R111124
 location: thirdnerd_hq
 manufacturer: Apple

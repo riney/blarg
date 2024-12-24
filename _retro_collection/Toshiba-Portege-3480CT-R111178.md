@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: collection_item
 accession: R111178
 location: unknown
 manufacturer: Toshiba

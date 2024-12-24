@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: collection_item
 accession: R111157
 location: deep_archives
 manufacturer: Radio Shack

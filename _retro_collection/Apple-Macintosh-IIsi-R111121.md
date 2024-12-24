@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: collection_item
 accession: R111121
 location: deep_archives
 manufacturer: Apple

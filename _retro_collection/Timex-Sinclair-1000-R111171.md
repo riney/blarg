@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: collection_item
 accession: R111171
 location: deep_archives
 manufacturer: Timex Sinclair

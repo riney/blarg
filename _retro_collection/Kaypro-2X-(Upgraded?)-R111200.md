@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: collection_item
 accession: R111200
 location: thirdnerd_hq
 manufacturer: Kaypro

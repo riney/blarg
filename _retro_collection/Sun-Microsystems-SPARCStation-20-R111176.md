@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: collection_item
 accession: R111176
 location: thirdnerd_hq
 manufacturer: Sun Microsystems

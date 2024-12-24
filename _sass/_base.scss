@@ -200,14 +200,17 @@ pre {
         vertical-align: middle;
     }
 }
-.icon--linkedin, .icon--github, .icon--instagram {
+.icon--linkedin, .icon--github, .icon--instagram, .icon--bluesky {
     > svg {
         path {
             fill: $grey-color;
         }
     }
 }
-.icon--linkedin{
+.icon--linkedin {
     padding-right: 3px;
+    vertical-align: bottom;
+}
+.icon--bluesky {
     vertical-align: bottom;
 }

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: collection_item
 accession: R111146
 location: thirdnerd_hq
 manufacturer: Convergent Systems

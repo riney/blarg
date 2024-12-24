@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: collection_item
 accession: R111197
 location: thirdnerd_hq
 manufacturer: Modular Micros, Inc

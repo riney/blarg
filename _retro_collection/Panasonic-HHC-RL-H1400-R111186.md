@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: collection_item
 accession: R111186
 location: thirdnerd_hq
 manufacturer: Panasonic

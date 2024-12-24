@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: collection_item
 accession: R111185
 location: thirdnerd_hq
 manufacturer: Commodore

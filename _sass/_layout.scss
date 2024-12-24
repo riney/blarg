@@ -308,3 +308,27 @@ ul.photo_gallery {
         vertical-align: top;
     }
 }
+
+table.accession_info {
+    border: 1px solid black;
+    border-spacing: 0;
+}
+
+table.accession_info td, table.accession_info th {
+    text-align: left;
+    padding: 2px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+table.accession_info th[scope='row'] {
+    background-color: lightgray;
+    font-weight: 800;
+    border-right: 1px solid black;
+}
+
+table.accession_info th[scope='col'] {
+    font-weight: bold;
+    background-color: lightblue;
+    border-bottom: 1px solid black;
+}

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: collection_item
 accession: R111183
 location: thirdnerd_hq
 manufacturer: Elektronika

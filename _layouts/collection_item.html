@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<h1>{{page.manufacturer}} - {{page.model}} ({{page.accession}})</h1>
+
+<table class="accession_info">
+    <thead>
+        <th colspan="2" scope="col">Accession info</th>
+    </thead>
+
+    <tr><th scope="row">Accession Number:</th><td>{{page.accession}}</td></tr>
+    <tr><th scope="row">Manufacturer:</th><td>{{page.manufacturer}}</td></tr>
+    <tr><th scope="row">Model:</th><td>{{page.model}}</td></tr>
+    <tr><th scope="row">Serial Number:</th><td>{{page.serial}}</td></tr>
+    <tr><th scope="row">Location:</th><td>{{page.location}}</td></tr>
+    <tr><th scope="row">Status:</th><td>{{page.status}}</td></tr>
+</table>
+
+<p>
+    {{ content }}
+</p>

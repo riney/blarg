@@ -14,6 +14,8 @@ url: "http://rineysoft.com" # the base hostname & protocol for your site
 github_username: riney
 instagram_username: rin3y
 linkedin_username: riney
+bluesky_username: 8bithe.art
+
 excerpt_separator: <!-- more -->
 exclude:
   - scripts

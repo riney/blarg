@@ -3,14 +3,19 @@ layout: default
 title: Retro computer collection - 8bithe.art
 ---
 
-{% assign all_systems = site.retro_collection | group_by: "manufacturer" %}
-{% assign all_accessions = site.retro_collection | map: "accession" | compact | sort %}
+{% assign all_manufacturers = site.retro_collection | group_by: "manufacturer" %}
+{% assign last_accession_num = site.retro_collection | map: "accession" | compact | sort | last %}
 
 <h1>Collection by manufacturer</h1>
-<p>{{ site.retro_collection | size | minus: 1 }} machines from {{ all_systems | size | minus: 1 }} manufacturers in collection. Last accession number: {{ all_accessions | last }}</p>
-<p><a class="page-link" href="{{ site.baseurl }}/retro_collection/by_number.html">View by accession number</a></p>
 
-{% for system_category in all_systems %}
+<p>
+    {{ site.retro_collection | size | minus: 1 }} machines
+    from {{ all_manufacturers | size | minus: 1 }} manufacturers in collection.
+    Last accession number: {{ last_accession_num }}
+    (<a class="page-link" href="{{ site.baseurl }}/retro_collection/by_number.html">View by accession number</a>)
+</p>
+
+{% for system_category in all_manufacturers %}
     {% assign category_name = system_category.name %}
 
     {% if category_name.size == 0 %}
