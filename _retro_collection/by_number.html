@@ -1,5 +1,5 @@
 ---
-layout: collection_item
+layout: default
 title: Retro computer collection, by accession number - 8bithe.art
 ---
 
@@ -7,8 +7,7 @@ title: Retro computer collection, by accession number - 8bithe.art
 {% assign all_accessions = site.retro_collection | map: "accession" | compact | sort %}
 
 <h1>Collection by accession number</h1>
-<p>{{ site.retro_collection | size | minus: 1 }} machines in collection. Last accession number: {{ all_accessions | last }}</p>
-<p><a class="page-link" href="{{ site.baseurl }}/retro_collection">View by manufacturer</a></p>
+<p>{{ site.retro_collection | size | minus: 1 }} machines in collection. Last accession number: {{ all_accessions | last }} (<a class="page-link" href="{{ site.baseurl }}/retro_collection">View by manufacturer</a>)</p>
 
 <ul>
     {% for system in all_systems %}

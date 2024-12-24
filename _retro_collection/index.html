@@ -20,9 +20,12 @@ title: Retro computer collection - 8bithe.art
 
     {% if category_name.size == 0 %}
         {% assign category_name = "Unassigned" %}
-    {% endif %} 
+        {% assign category_count = system_category.items | size | minus: 2 %}
+    {% else %}
+        {% assign category_count = system_category.items | size %}
+    {% endif %}
 
-    <h2>{{category_name}}</h2>
+    <h2>{{category_name}} ({{ category_count }})</h2>
     <ul>
         {% for system in system_category.items %}
             {% unless system.name contains ".html" %}
